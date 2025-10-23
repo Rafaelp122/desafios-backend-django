@@ -18,31 +18,26 @@ Criar uma API que cadastre produtos e permita filtrar por categoria.
 
 ## 🚀 Como Executar o Projeto
 
-1.  **Clone o repositório** (se ainda não o fez):
+1.  **Pré-requisitos:** Certifique-se de que você já ativou seu ambiente virtual e instalou as dependências do arquivo `requirements.txt` na **raiz** do repositório.
     ```bash
-    git clone [https://github.com/Rafaelp122/desafios-backend-django.git](https://github.com/Rafaelp122/desafios-backend-django.git)
-    cd desafios-backend-django/desafio-02-api-produtos
+    # (Na pasta raiz do repositório)
+    # source venv/bin/activate
+    # pip install -r requirements.txt
     ```
 
-2.  **Crie e ative um ambiente virtual:**
+2.  **Navegue até esta pasta do desafio:**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # No Windows: venv\Scripts\activate
+    # (Estando na raiz)
+    cd desafio-02-api-produtos
     ```
 
-3.  **Instale as dependências:**
-    *(Recomendado: crie um `requirements.txt` neste projeto com `pip freeze > requirements.txt`)*
-    ```bash
-    pip install django djangorestframework
-    ```
-
-4.  **Rode as migrações:**
+3.  **Rode as migrações:**
     ```bash
     python manage.py makemigrations
     python manage.py migrate
     ```
 
-5.  **Inicie o servidor:**
+4.  **Inicie o servidor:**
     ```bash
     python manage.py runserver
     ```
